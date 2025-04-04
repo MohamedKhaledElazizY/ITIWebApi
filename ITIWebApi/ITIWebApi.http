@@ -1,0 +1,32 @@
+﻿@ITIWebApi_HostAddress = http://localhost:5234
+
+GET {{ITIWebApi_HostAddress}}/api/students
+
+###
+
+POST {{ITIWebApi_HostAddress}}/api/students
+Content-Type: application/json
+
+{
+  //Student
+}
+
+###
+
+PUT {{ITIWebApi_HostAddress}}/api/students
+Content-Type: application/json
+
+{
+  //Student
+}
+
+###
+
+@id=0
+DELETE {{ITIWebApi_HostAddress}}/api/students/{{id}}
+
+###
+
+GET {{ITIWebApi_HostAddress}}/api/students/{{id}}
+
+###
